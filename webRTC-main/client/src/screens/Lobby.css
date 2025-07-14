@@ -1,0 +1,42 @@
+.lobby-container {
+  background: url("bg.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lobby-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 20px cyan;
+}
+
+.lobby-box h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.lobby-box input {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.lobby-box button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: cyan;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
